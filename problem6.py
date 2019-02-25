@@ -11,7 +11,7 @@ def commonK(t):
         for k in q_list:
             subtraction.extend(range(k+1))
         operations = []
-        for l in range(len(a_list))
+        for l in range(len(a_list)):
             for m in addition:
                 operations.extend(a_list[l]-m)
             for n in subtraction:
